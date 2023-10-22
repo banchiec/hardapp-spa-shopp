@@ -1,7 +1,6 @@
-import { errorLogin, loadingLogin, loginActionType, loginStateInterface, successLogin } from "./type";
+import { errorLogin, loadingLogin, loginActionType, loginStateInterface, successLogin } from "./loginReducertype";
 
-
-type ActionLogin = | loadingLogin | successLogin | errorLogin
+type ActionLogin = loadingLogin | successLogin | errorLogin
 
 const loginReducer = (state: loginStateInterface, action: ActionLogin): loginStateInterface => {
 	switch(action.type){

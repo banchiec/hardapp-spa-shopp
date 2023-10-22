@@ -1,8 +1,9 @@
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./components/navbar";
+import './global.scss'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar/>
     </div>
   );
