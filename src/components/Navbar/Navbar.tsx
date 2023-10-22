@@ -3,7 +3,7 @@ import { ButtonActions } from '../button-actions'
 import Icon from '../icon/Icon'
 import './nav-bar.scss'
 
-const Navbar = () =>  {
+export const Navbar = () =>  {
 
 	const handleClick = () => {
 		console.log("pepe")
